@@ -11,5 +11,5 @@ Object.keys(plugin.rules).forEach((ruleName) => {
     }
   });
 
-  tester.run(`es5/${ruleName}`, plugin.rules[ruleName], require(`./rules/${ruleName}`));
+  tester.run(`flowspace-es5/${ruleName}`, plugin.rules[ruleName], require(`./rules/${ruleName}`));
 });
