@@ -8,7 +8,7 @@ const es6StaticFunctions = {
   'Math.trunc': true,
   'Math.imul': true,
   'Math.sign': true,
-  'Number.isNaN': true,
+  'Number.isNaN': false,
   'Number.isFinite': true,
   'Number.isSafeInteger': true,
   'Object.assign': true,

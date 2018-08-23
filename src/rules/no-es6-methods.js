@@ -2,7 +2,7 @@
 
 const es6Functions = {
   // array functions
-  find: true,
+  find: false,
   findIndex: true,
   copyWithin: true,
   values: true,
